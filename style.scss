@@ -104,4 +104,70 @@ span {
     letter-spacing: 0px;
 }
 
+.seasons {
+    background-image: url(img/backgroun3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.seasons__content {
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 135px;
+
+    &_text {
+        padding-top: 282px;
+
+        &_title {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 78px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: white;
+        }
+
+        &_desc {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 32px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #fff;
+            width: 584px;
+            padding-top: 32px;
+        }
+
+        &_btn {
+            display: inline-block;
+            width: 234.06px;
+            height: 48.6px;
+            background-color: #9C0332;
+            color: #fff;
+            text-align: center;
+            line-height: 48.6px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin-top: 32px;
+        }
+
+        &_btn:hover {
+            background-color: #EB443F;
+        }
+    }
+
+
+    &_img {
+        width: 485px;
+        height: 333px;
+        padding-top: 233.5px;
+    }
+}
+
+
+
 @import 'mobile';
