@@ -1,0 +1,39 @@
+@media (max-width: 767px) {
+    .top__content {
+        padding-left: 16px;
+        padding-right: 16px;
+        height: 735px;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 31.01px;
+        text-align: center;
+        width: auto;
+    }
+
+    .desc {
+        font-size: 14px;
+        text-align: center;
+        width: auto;
+    }
+
+    .main__content {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .game:hover {
+        border: 2px solid #44D2FF;
+        border-radius: 16px;
+        width: 343px;
+        height: 300px;
+    }
+
+    .img {
+        width: 343px;
+        height: 300px;
+    }
+}
