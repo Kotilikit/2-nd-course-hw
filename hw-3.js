@@ -1,7 +1,7 @@
 let password = 'qwerty';
 let input = prompt('Введите пароль');
 
-if (input === 'qwerty') {
+if (password === 'qwerty') {
     alert("Пароль введен верно");
 } else {
     alert("Пароль введен неправильно");
@@ -38,6 +38,7 @@ switch (monthNumber) {
     case 'декабрь':
     case '1':
     case '2':
+    case '12':
         alert('Зима');
         break;
     case 'март':
