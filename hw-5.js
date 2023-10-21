@@ -2,7 +2,7 @@ function less(a, b) {
     if (a < b) {
         return a;
     } else {
-        return a;
+        return b;
     }
 }
 
@@ -78,25 +78,25 @@ for (let i = 0; i <= 10; i++) {
 }
 // Задание 6
 
-function getRectangleArea() {
-    return this.radius ** 2 * 3.14;
+function getCircleArea() {
+    return this.radius ** 2 * Math.PI;
 }
-function getRectanglePerimeter() {
-    return this.radius * 2 * 3.14;
+function getCirclePerimeter() {
+    return this.radius * 2 * Math.PI;
 }
 
 const circle1 = {
     radius: 10,
 
-    getArea: getRectangleArea,
-    getPerimeter: getRectanglePerimeter,
+    getArea: getCircleArea,
+    getPerimeter: getCirclePerimeter,
 };
 
 const circle2 = {
     radius: 5,
 
-    getArea: getRectangleArea,
-    getPerimeter: getRectanglePerimeter,
+    getArea: getCircleArea,
+    getPerimeter: getCirclePerimeter,
 };
 
 console.log(circle1.getArea());

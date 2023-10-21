@@ -12,7 +12,9 @@ function timeYear(monthNum) {
     }
 }
 
-let monthNum = parseInt(prompt("Введите номер месяца (от 1 до 12)"));
-
-alert(`${monthNum} месяц - это ${timeYear(monthNum)}`);
+function calculateSeason() {
+    let monthNum = parseInt(prompt("Введите номер месяца (от 1 до 12)"));
+    
+    alert(`${monthNum} месяц - это ${timeYear(monthNum)}`);    
+}
 // Задание 8
