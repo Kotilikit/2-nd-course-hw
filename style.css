@@ -162,6 +162,64 @@ span {
   padding-top: 233.5px;
 }
 
+#words {
+  background-image: url(img/backgroun3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+.words__content {
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 135px;
+       column-gap: 135px;
+}
+.words__content_text {
+  padding-top: 282px;
+}
+.words__content_text_title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+}
+.words__content_text_desc {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+  width: 584px;
+  padding-top: 32px;
+}
+.words__content_text_btn {
+  display: inline-block;
+  width: 234.06px;
+  height: 48.6px;
+  background-color: #9C0332;
+  color: #fff;
+  text-align: center;
+  line-height: 48.6px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 32px;
+}
+.words__content_text_btn:hover {
+  background-color: #EB443F;
+}
+.words__content_img {
+  width: 485px;
+  height: 333px;
+  padding-top: 233.5px;
+}
+
 @media (max-width: 767px) {
   .top__content {
     padding-left: 16px;
@@ -196,14 +254,18 @@ span {
     width: 343px;
     height: 300px;
   }
+  #seasons {
+    height: auto;
+  }
   .seasons__content {
     padding-left: 16px;
     padding-right: 16px;
-    height: 735px;
     text-align: center;
+    flex-direction: column;
   }
   .seasons__content_text {
     padding-top: 51px;
+    order: 1;
   }
   .seasons__content_text_title {
     font-size: 32px;
@@ -222,5 +284,41 @@ span {
     width: 344px;
     height: 236px;
     padding-top: 64px;
+    padding-bottom: 85.01px;
+    order: 2;
+  }
+  #words {
+    height: auto;
+  }
+  .words__content {
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 735px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .words__content_text {
+    padding-top: 51px;
+    order: 1;
+  }
+  .words__content_text_title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: center;
+    width: auto;
+  }
+  .words__content_text_desc {
+    font-size: 14px;
+    text-align: center;
+    width: auto;
+    line-height: 22px;
+  }
+  .words__content_img {
+    width: 344px;
+    height: 236px;
+    padding-top: 64px;
+    order: 2;
+    padding-bottom: 85.01px;
   }
 }/*# sourceMappingURL=style.css.map */

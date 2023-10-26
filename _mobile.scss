@@ -38,14 +38,19 @@
         height: 300px;
     }
 
+    #seasons {
+        height: auto;
+    }
+
     .seasons__content {
         padding-left: 16px;
         padding-right: 16px;
-        height: 735px;
         text-align: center;
+        flex-direction: column;
 
         &_text { 
             padding-top: 51px;
+            order: 1;
 
             &_title {
                 font-size: 32px;
@@ -67,6 +72,48 @@
             width: 344px;
             height: 236px;
             padding-top: 64px;
+            padding-bottom: 85.01px;
+            order: 2;
+        }
+    }
+
+    #words {
+        height: auto;
+    }
+
+    .words__content {
+        padding-left: 16px;
+        padding-right: 16px;
+        height: 735px;
+        text-align: center;
+        flex-direction: column;
+
+        &_text { 
+            padding-top: 51px;
+            order: 1;
+
+            &_title {
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 39.01px;
+                text-align: center;
+                width: auto;
+            }
+
+            &_desc {
+                font-size: 14px;
+                text-align: center;
+                width: auto;
+                line-height: 22px;
+            }
+        }
+
+        &_img {
+            width: 344px;
+            height: 236px;
+            padding-top: 64px;
+            order: 2;
+            padding-bottom: 85.01px;
         }
     }
 }
